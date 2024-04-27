@@ -1,0 +1,9 @@
+[submodule "libs/DaisySP"]
+	path = library/DaisySP
+	url = https://github.com/electro-smith/DaisySP
+[submodule "libs/stmlib"]
+	path = library/stmlib
+	url = https://github.com/pichenettes/stmlib
+[submodule "libs/libDaisy"]
+	path = library/libDaisy
+	url = https://github.com/electro-smith/libDaisy
