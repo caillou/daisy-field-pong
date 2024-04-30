@@ -2,20 +2,18 @@
     "configurations": [
         {
             "name": "Mac",
-            "includePath": [
-                "${workspaceFolder}/**"
-            ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ],
-            "macFrameworkPath": [
-                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
-            ],
-            "cStandard": "c17",
+
+            "cStandard": "c11",
+            "compilerPath": "/opt/homebrew/bin/arm-none-eabi-g++",
             "cppStandard": "c++17",
-            "intelliSenseMode": "macos-clang-arm64"
+            "defines": [
+              "_DEBUG",
+              "UNICODE",
+              "_UNICODE"
+            ],
+            "includePath": [
+              "${workspaceFolder}/**"
+            ]
         }
     ],
     "version": 4
